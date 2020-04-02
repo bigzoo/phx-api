@@ -16,3 +16,6 @@ config :app, AppWeb.Endpoint,
 
 # Print only warnings and errors during test
 config :logger, level: :warn
+
+# To speed compression locally
+config :brycpt_elixir, :log_rounds, 4
