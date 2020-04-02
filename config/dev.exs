@@ -2,8 +2,8 @@ use Mix.Config
 
 # Configure your database
 config :app, App.Repo,
-  username: "postgres",
-  password: "postgres",
+  username: "bigzoo",
+  password: "bigzoo",
   database: "app_dev",
   hostname: "localhost",
   show_sensitive_data_on_connection_error: true,
@@ -17,7 +17,7 @@ config :app, App.Repo,
 # with webpack to recompile .js and .css sources.
 config :app, AppWeb.Endpoint,
   http: [port: 4000],
-  debug_errors: true,
+  debug_errors: false,
   code_reloader: true,
   check_origin: false,
   watchers: []
