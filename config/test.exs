@@ -18,4 +18,4 @@ config :app, AppWeb.Endpoint,
 config :logger, level: :warn
 
 # To speed compression locally
-config :brycpt_elixir, :log_rounds, 4
+config :bcrypt_elixir, :log_rounds, 4
